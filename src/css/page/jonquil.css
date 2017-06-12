@@ -1,0 +1,232 @@
+@import url("../lib/reset.css");
+.full {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.jonquil-head {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+  height: 53px;
+  background: #ffffff;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.jonquil-head .jonquil-head-left {
+  float: left;
+  width: 31px;
+  height: 31px;
+  background: none;
+  margin-top: 10px;
+}
+.jonquil-head .jonquil-head-left .jonquil-head-left-img {
+  width: 31px;
+  height: 31px;
+  background: none;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.jonquil-head .jonquil-head-left .jonquil-head-left-img .personal-center {
+  max-height: 31px;
+  max-width: 31px;
+  vertical-align: middle;
+}
+.jonquil-head .jonquil-head-right {
+  padding-left: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 53px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.jonquil-nav {
+  width: 100%;
+  height: 53px;
+  background: #ffffff;
+  border-bottom: 1px solid #e4ebef;
+  position: fixed;
+  top: 53px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.jonquil-nav .jonquil-nav-show {
+  border-bottom: 2px solid #1DA1F2;
+}
+.jonquil-nav .jonquil-nav-index {
+  width: 24%;
+  height: 53px;
+  background: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 53px;
+  overflow: hidden;
+}
+.jonquil-nav .jonquil-nav-index .jonquil-index {
+  background-image: url("../../img/twitter-index_07.png");
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  margin-top: 10px;
+}
+.jonquil-nav .jonquil-nav-index .jonquil-search {
+  background-image: url("../../img/twitter-index_12.png");
+  width: 25px;
+  height: 27px;
+}
+.jonquil-nav .jonquil-nav-index .jonquil-contont {
+  background-image: url("../../img/twitter-index_09.png");
+  width: 23px;
+  height: 30px;
+}
+.jonquil-nav .jonquil-nav-index .jonquil-message {
+  background-image: url("../../img/twitter-index_15.png");
+  width: 26px;
+  height: 25px;
+}
+.jonquil-content-show {
+  display: none;
+}
+.jonquil-home-wrap {
+  margin-top: 106px;
+}
+.jonquil-home-wrap .jonquil-main {
+  width: 100%;
+  height: 310px;
+  background: none;
+  border-bottom: 1px solid #cfd8de;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.jonquil-home-wrap .jonquil-main .jonquil-main-left {
+  width: 51px;
+  height: 51px;
+  background: none;
+  float: left;
+  margin: 18px 5px 0 0;
+}
+.jonquil-home-wrap .jonquil-main .jonquil-main-left .jonquil-main-personal {
+  width: 51px;
+  height: 51px;
+  background: none;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.jonquil-home-wrap .jonquil-main .jonquil-main-left .jonquil-main-personal .jonquil-main-personal {
+  max-height: 51px;
+  max-width: 51px;
+  vertical-align: middle;
+}
+.jonquil-home-wrap .jonquil-main .jonquil-main-right {
+  padding-left: 5px;
+  height: 310px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.jonquil-home-wrap .jonquil-main .jonquil-main-right .jonquil-main-right-personal {
+  width: 100%;
+  height: 24px;
+  background: none;
+  margin-top: 18px;
+  position: relative;
+}
+.jonquil-home-wrap .jonquil-main .jonquil-main-right .jonquil-main-right-personal .jonquil-main-right-people {
+  width: auto;
+  height: 24px;
+  background: none;
+  padding-right: 11px;
+}
+.jonquil-home-wrap .jonquil-main .jonquil-main-right .jonquil-main-right-personal .jonquil-main-right-people .people-name {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+}
+.jonquil-home-wrap .jonquil-main .jonquil-main-right .jonquil-main-right-personal .jonquil-main-right-people .people-name .people-name-change {
+  background: url("../../img/twitter-index_24.png") no-repeat left;
+  width: 18px;
+  height: 17px;
+  display: inline-block;
+}
+.jonquil-home-wrap .jonquil-main .jonquil-main-right .jonquil-main-right-personal .jonquil-main-right-people .people-name .people-name-color {
+  color: #657786;
+  font-weight: normal;
+}
+.jonquil-home-wrap .jonquil-main .jonquil-main-right .jonquil-main-right-personal .jonquil-main-right-people .jonquil-send-time {
+  color: #657786;
+  font-size: 15px;
+}
+.jonquil-home-wrap .jonquil-main .jonquil-main-right .jonquil-main-right-personal .jonquil-main-right-more {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 11px;
+  height: 7px;
+  background: none;
+  background: url("../../img/twitter-index_27.png") no-repeat left;
+  display: inline-block;
+}
+.jonquil-home-wrap .jonquil-main .jonquil-main-right .jonquil-main-text {
+  font-size: 14px;
+  line-height: 20px;
+  word-wrap: break-word;
+  word-break: break-all;
+  white-space: normal;
+}
+.jonquil-content-wrap {
+  width: 100%;
+  height: 160px;
+  background: none;
+  margin-top: 110px;
+  text-align: center;
+}
+.jonquil-content-wrap .jonquil-content-h3 {
+  padding: 30px 10px;
+}
+.jonquil-content-wrap .jonquil-content-h3 .jonquil-content-head {
+  font-size: 22px;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+.jonquil-content-wrap .jonquil-content-h3 .jonquil-content-explian {
+  font-size: 15px;
+  color: #657786;
+}
+.jonquil-message-wrap {
+  width: 100%;
+  height: 200px;
+  background: none;
+  margin-top: 110px;
+  text-align: center;
+}
+.jonquil-message-wrap .jonquil-message-h3 {
+  padding: 30px 10px;
+}
+.jonquil-message-wrap .jonquil-message-h3 .jonquil-message-head {
+  font-size: 22px;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+.jonquil-message-wrap .jonquil-message-h3 .jonquil-message-explian {
+  font-size: 15px;
+  color: #657786;
+  padding-bottom: 15px;
+}
+.jonquil-message-wrap .jonquil-message-h3 .jonquil-message-share {
+  display: inline-block;
+  border: 1px solid #1DA1F2;
+  border-radius: 5px;
+  color: #1DA1F2;
+  font-size: 14px;
+  padding: 5px 10px;
+  font-weight: bold;
+}
