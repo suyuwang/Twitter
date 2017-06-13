@@ -1,0 +1,118 @@
+		*{
+    		margin: 0;
+    		padding:0;
+    	}
+    	.house_header{
+    		background:white;
+    		width:100%;
+    		height:40px;
+    	}
+    	.house_header img{
+    		padding:5px 5px;
+    		box-sizing: border-box;
+    		float:left;
+    	}
+    	.horse_search{
+    		width:80%;
+    		height:30px;
+    		float:left;
+    		outline: none;
+    		margin-left:10px;
+    		margin-top:5px;
+    		padding-left: 10px;
+    		border-radius: 3px;
+    		border:1px solid #e4ebef;
+    	}
+    	.house_nav{
+    		position: relative;
+			width:100%;
+			height:50px;
+			float:left;
+    	}
+    	.house_nav{
+			width: 100%;
+			height: 60px;
+			border-bottom: 1px solid #e4ebef;
+		}
+		.nav_1{
+			width: 25%;
+			height: 50px;
+			text-align: center;
+			display: inline-block;
+			overflow: hidden;
+			float: left;
+		}
+		.nav_a_main{
+			width: 29px;
+			height: 29px;
+			display: inline-block;
+			margin-top: 10px;
+		}
+		.nav_a_search{
+			width: 25px;
+			height: 27px;
+			display: inline-block;
+			margin-top: 10px;
+		}
+		.nav_a_clock{
+			background: url("../../img/twitter-index_09.png");
+			width: 23px;
+			height: 30px;
+			display: inline-block;
+			margin-top: 10px;
+		}
+		.nav_a_news{
+			width: 26px;
+			height: 25px;
+			display: inline-block;
+			margin-top: 10px;
+		}
+		.housen{
+			box-sizing: border-box;
+			border-bottom: 2px solid ;
+		}
+		.house_content .warp{
+			display: none;
+		}
+		.house_content .con{
+			display: block;
+		}
+		.house_content .warp .newsone h3{
+			padding: 15px 0 0 15px;
+			box-sizing: border-box;
+		}
+		.house_content .warp .newsone .house_one h4{
+			color:mediumslateblue;
+		}
+		
+		.house_one{
+			width:100%;
+			height:50px;
+			border-top:1px solid #f5f9fc;
+			border-bottom:1px solid #f5f9fc;
+			padding-left: 10px;
+			box-sizing: border-box;
+		}
+		
+		.house_two{
+			width: 100%;
+			
+		}
+		.house_inform h2{
+			font-size:18px;
+			color:black;
+		}
+		.house_inform{
+			margin-top: 25px;
+			height: 85px;
+			line-height: 60px;
+			text-align: center;
+		}
+		.section1_character{
+			padding: 0 10px 0 10px;
+		}
+		.section1_character p{
+			line-height: 18px;
+			color: #647687;
+		}
+		
